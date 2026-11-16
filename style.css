@@ -1,0 +1,32 @@
+/*
+SOUZA AUTOCAR
+Estilos globais
+*/
+
+:root {
+    --preto: #111111;
+    --grafite: #252525;
+    --dourado: #C5A45B;
+    --off-white: #F4F1EA;
+    --cinza: #A7A7A7;
+    --bronze: #3A3020;
+
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--off-white);
+    color: var(--preto);
+    
+}
